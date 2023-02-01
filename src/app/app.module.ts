@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { ClientesComponent } from './componentes/clientes/clientes.component';
-import { ArticulosComponent } from './componentes/articulos/articulos.component';
+import { TrabajadoresComponent } from './componentes/trabajadores/trabajadores.component';
 import { Error404Component } from './componentes/error404/error404.component';
 
 @NgModule({
@@ -17,8 +17,8 @@ import { Error404Component } from './componentes/error404/error404.component';
     HeaderComponent,
     InicioComponent,
     ClientesComponent,
-    ArticulosComponent,
-    Error404Component
+    Error404Component,
+    TrabajadoresComponent
   ],
   imports: [
     BrowserModule,
