@@ -10,6 +10,7 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 import { ClientesComponent } from './componentes/clientes/clientes.component';
 import { TrabajadoresComponent } from './componentes/trabajadores/trabajadores.component';
 import { Error404Component } from './componentes/error404/error404.component';
+import { CrearClienteComponent } from './componentes/crear-cliente/crear-cliente.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Error404Component } from './componentes/error404/error404.component';
     InicioComponent,
     ClientesComponent,
     Error404Component,
-    TrabajadoresComponent
+    TrabajadoresComponent,
+    CrearClienteComponent
   ],
   imports: [
     BrowserModule,

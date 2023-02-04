@@ -1,6 +1,7 @@
 <h3>Clientes: </h3>
 <ul>
-  <li>Lista clientes</li>
+  <li *ngFor="let cliente of clientes">{{cliente.nombre}} {{ cliente.apellido }}
+    <button (click)="borrarCliente(cliente.id)">Borrar Cliente</button>
+  </li>
 </ul>
-
-<button>Crear Cliente</button>
+<button routerLink="/clientes/crear">Crear Cliente</button>

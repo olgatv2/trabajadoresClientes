@@ -1,6 +1,9 @@
 <h3>Trabajadores: </h3>
 <ul>
-  <li>Lista trabajadores</li>
+  <li *ngFor="let trabajador of trabajadores">
+    {{trabajador.nombre}} - {{trabajador.cargo}}
+    <button>Borrar trabajador</button>
+  </li>
 </ul>
 
-<button>Borrar trabajador</button>
+
